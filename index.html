@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="СТАНДАРТ — дизайн-студия и печатный салон в Костроме. Дизайн, печать, упаковка, широкоформатная печать, постпечать и мерч.">
+<meta property="og:title" content="СТАНДАРТ — дизайн-студия и печатный салон">
+<meta property="og:description" content="Печать имеет значение. От идеи до готового результата.">
+<meta property="og:type" content="website">
+<title>СТАНДАРТ — дизайн-студия & печатный салон</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise" aria-hidden="true"></div>
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a class="logo" href="#top" aria-label="СТАНДАРТ — на главную"><img src="assets/brand/logo-white.png" alt="СТАНДАРТ — дизайн-студия и печатный салон"></a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a><a href="#portfolio">Портфолио</a><a href="#process">Как работаем</a><a href="#about">О нас</a><a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header__right"><a href="tel:+74942390071" class="header__phone">+7 4942 39 00 71</a><button class="button button--red js-open-form" data-source="Шапка">Рассчитать макет <span>→</span></button></div>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+  </div>
+  <div class="mobile-nav"><a href="#services">Услуги</a><a href="#portfolio">Портфолио</a><a href="#process">Как работаем</a><a href="#about">О нас</a><a href="#contacts">Контакты</a><button class="button button--red js-open-form" data-source="Мобильное меню">Рассчитать макет <span>→</span></button></div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <div class="micro">ДИЗАЙН · ПЕЧАТЬ · ПРОИЗВОДСТВО</div>
+      <h1>ПЕЧАТЬ<br>ИМЕЕТ<br><span>ЗНАЧЕНИЕ</span></h1>
+      <p>Дизайн. Печать. Упаковка. Мерч.<br>Реальные решения для ваших идей.</p>
+      <div class="hero__actions"><button class="button button--red js-open-form" data-source="Hero">Оставить заявку <span>→</span></button><a class="button button--light" href="#services">Узнать больше <span>↘</span></a></div>
+      <div class="hero__facts"><span>♛ <b>Современное<br>оборудование</b></span><span>ϟ <b>Быстрые<br>сроки</b></span><span>◇ <b>Гарантия<br>качества</b></span></div>
+    </div>
+    <div class="hero__visual">
+      <img src="assets/ui/hero.jpg" alt="PrintMan в студии СТАНДАРТ" loading="eager">
+    </div>
+  </div>
+</section>
+
+<section class="services section" id="services">
+  <div class="container">
+    <div class="section-title"><div><div class="micro">ПОЛНЫЙ ЦИКЛ — ОТ ИДЕИ ДО ГОТОВОГО ПРОДУКТА</div><h2>НАШИ УСЛУГИ <i></i></h2></div><a class="section-link" href="#contacts">Все услуги <span>↗</span></a></div>
+    <div class="services-grid">
+      <article class="service-card"><div class="service-card__image"><img src="assets/services/design.png" alt="Дизайн"></div><h3>Дизайн</h3><p>От идеи до готового макета</p></article>
+      <article class="service-card"><div class="service-card__image"><img src="assets/services/print.png" alt="Печать"></div><h3>Печать</h3><p>Цифровая, офсетная, малые и большие тиражи</p></article>
+      <article class="service-card"><div class="service-card__image"><img src="assets/services/packaging.png" alt="Упаковка"></div><h3>Упаковка</h3><p>Коробки, этикетки, фирменная упаковка</p></article>
+      <article class="service-card"><div class="service-card__image"><img src="assets/services/wide.png" alt="Широкоформатная печать"></div><h3>Широкоформатная печать</h3><p>Баннеры, вывески, интерьерная печать</p></article>
+      <article class="service-card"><div class="service-card__image"><img src="assets/services/finishing.png" alt="Постпечать"></div><h3>Постпечать</h3><p>Ламинация, вырубка, УФ-лак и многое другое</p></article>
+      <article class="service-card"><div class="service-card__image"><img src="assets/services/merch.png" alt="Мерч"></div><h3>Мерч</h3><p>Одежда, сувениры и брендированные материалы</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio section" id="portfolio">
+  <div class="container">
+    <div class="section-title section-title--light"><div><div class="micro">РЕАЛЬНЫЕ ПРОЕКТЫ. РЕАЛЬНЫЕ РЕЗУЛЬТАТЫ.</div><h2>СДЕЛАЛИ <i></i></h2></div><a class="section-link section-link--light" href="assets/portfolio/full-portfolio.pdf" download="Портфолио_СТАНДАРТ.pdf">Смотреть все <span>↗</span></a></div>
+    <div class="portfolio-carousel">
+      <button class="carousel-btn carousel-btn--prev" aria-label="Предыдущие работы">←</button>
+      <div class="portfolio-window"><div class="portfolio-track" id="portfolioTrack">
+        <a class="portfolio-card" href="assets/portfolio/full/p4.jpg" data-full="assets/portfolio/full/p4.jpg" data-index="0"><img src="assets/portfolio/p4.jpg" alt="Лунево на Волге — этикетки" loading="lazy"><span>Лунево на Волге</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p5.jpg" data-full="assets/portfolio/full/p5.jpg" data-index="1"><img src="assets/portfolio/p5.jpg" alt="LETI — этикетки и упаковка" loading="lazy"><span>LETI</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p6.jpg" data-full="assets/portfolio/full/p6.jpg" data-index="2"><img src="assets/portfolio/p6.jpg" alt="Папин Жигуль — этикетки" loading="lazy"><span>Папин Жигуль</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p8.jpg" data-full="assets/portfolio/full/p8.jpg" data-index="3"><img src="assets/portfolio/p8.jpg" alt="Золотое кольцо — меню" loading="lazy"><span>Золотое кольцо</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p13.jpg" data-full="assets/portfolio/full/p13.jpg" data-index="4"><img src="assets/portfolio/p13.jpg" alt="VOLGA — меню" loading="lazy"><span>VOLGA</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p18.jpg" data-full="assets/portfolio/full/p18.jpg" data-index="5"><img src="assets/portfolio/p18.jpg" alt="Золотое кольцо — постное меню" loading="lazy"><span>Золотое кольцо · постное меню</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p22.jpg" data-full="assets/portfolio/full/p22.jpg" data-index="6"><img src="assets/portfolio/p22.jpg" alt="Бар-музей Васи Ложкина" loading="lazy"><span>Бар-музей Васи Ложкина</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p31.jpg" data-full="assets/portfolio/full/p31.jpg" data-index="7"><img src="assets/portfolio/p31.jpg" alt="PRACTICE — фирменный стиль" loading="lazy"><span>PRACTICE</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p38.jpg" data-full="assets/portfolio/full/p38.jpg" data-index="8"><img src="assets/portfolio/p38.jpg" alt="Антарес — фирменный стиль" loading="lazy"><span>Антарес</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p48.jpg" data-full="assets/portfolio/full/p48.jpg" data-index="9"><img src="assets/portfolio/p48.jpg" alt="Птичий двор — фирменный стиль" loading="lazy"><span>Птичий двор</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p58.jpg" data-full="assets/portfolio/full/p58.jpg" data-index="10"><img src="assets/portfolio/p58.jpg" alt="Рыбинская генерация — календарь" loading="lazy"><span>Рыбинская генерация</span></a>
+        <a class="portfolio-card" href="assets/portfolio/full/p61.jpg" data-full="assets/portfolio/full/p61.jpg" data-index="11"><img src="assets/portfolio/p61.jpg" alt="Газпром — календарь" loading="lazy"><span>Газпром</span></a>
+      </div></div>
+      <button class="carousel-btn carousel-btn--next" aria-label="Следующие работы">→</button>
+    </div>
+    <div class="carousel-meta"><span id="portfolioPage">01 / 02</span><div class="carousel-progress"><i id="portfolioProgress"></i></div></div>
+  </div>
+</section>
+
+<section class="process section" id="process">
+  <div class="container">
+    <div class="section-title"><div><div class="micro">ПРОСТО. УДОБНО. НАДЁЖНО.</div><h2>КАК ЭТО РАБОТАЕТ <i></i></h2></div></div>
+    <div class="process-steps">
+      <div class="process-step"><div class="process-step__image"><img src="assets/process/process-1.png" alt="Заявка — иллюстрация PrintMan" loading="lazy"></div><div class="process-step__bar" aria-hidden="true"></div><b>1. Заявка</b><span>Оставляете заявку или звоните</span></div>
+      <div class="process-step"><div class="process-step__image"><img src="assets/process/process-2.png" alt="Обсуждение — иллюстрация PrintMan" loading="lazy"></div><div class="process-step__bar" aria-hidden="true"></div><b>2. Обсуждение</b><span>Подбираем решение и считаем стоимость</span></div>
+      <div class="process-step"><div class="process-step__image"><img src="assets/process/process-3.png" alt="Дизайн — иллюстрация PrintMan" loading="lazy"></div><div class="process-step__bar" aria-hidden="true"></div><b>3. Дизайн</b><span>Готовим макет и согласовываем</span></div>
+      <div class="process-step"><div class="process-step__image"><img src="assets/process/process-4.png" alt="Печать — иллюстрация PrintMan" loading="lazy"></div><div class="process-step__bar" aria-hidden="true"></div><b>4. Печать</b><span>Запускаем в производство</span></div>
+      <div class="process-step"><div class="process-step__image"><img src="assets/process/process-5.png" alt="Готово — иллюстрация PrintMan" loading="lazy"></div><div class="process-step__bar" aria-hidden="true"></div><b>5. Готово!</b><span>Вы получаете результат</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="about section" id="about">
+  <div class="container about__grid">
+    <div class="about__copy"><div class="micro">СТАНДАРТ · КОСТРОМА · С 2000 ГОДА</div><h2>О НАС <i></i></h2>
+      <p><strong>СТАНДАРТ работает с 2000 года.</strong> За это время мы сделали очень много разного дизайна — от логотипов, фирменного стиля, этикеток и упаковки до рекламных материалов и избирательных кампаний.</p>
+      <p>Нам нравится, когда дизайн не заканчивается красивой картинкой на экране. Мы придумываем, разрабатываем макеты, готовим их к печати и доводим проект до готового результата — того, что можно взять в руки.</p>
+    </div>
+    <div class="about__visual"><img src="assets/ui/tactile.jpg" alt="Материалы и печатная продукция СТАНДАРТ" loading="lazy"><div class="about__tag">IDEAS<br>PRINT<br>PEOPLE</div></div>
+  </div>
+</section>
+
+<section class="why section"><div class="container why__inner"><div class="why__title"><div class="micro">БЕЗ ЛИШНИХ ОБЕЩАНИЙ</div><h2>ПОЧЕМУ МЫ <i></i></h2></div><div class="why__items"><div><b>★</b><strong>Опыт и экспертиза</strong><span>Более 20 лет в полиграфии</span></div><div><b>◇</b><strong>Качество</strong><span>Современное оборудование</span></div><div><b>ϟ</b><strong>Скорость</strong><span>Чёткие сроки и контроль</span></div><div><b>♡</b><strong>Сервис</strong><span>Личный менеджер и поддержка</span></div></div><div class="why__stamp">ИДЕИ<br>PRINT<br>PEOPLE</div></div></section>
+
+<section class="contacts section" id="contacts"><div class="container contacts__grid"><div class="contacts__copy"><div class="micro">ПРИЕЗЖАЙТЕ. ЗВОНИТЕ. ПИШИТЕ.</div><h2>КОНТАКТЫ <i></i></h2><div class="contact-lines"><a href="https://yandex.ru/maps/?ll=40.913329%2C57.775838&z=18&pt=40.913329%2C57.775838,pm2rdm" target="_blank" rel="noopener">⌖ <span>г. Кострома,<br>пр-т Текстильщиков 51/21</span></a><a href="tel:+74942390071">⌕ <span>+7 4942 39 00 71</span></a><a href="mailto:mail@standart.su">✉ <span>mail@standart.su</span></a><div>◷ <span>Пн–Пт с 09:00 до 18:00<br>Сб–Вс выходной</span></div></div><div class="contacts__actions"><a class="button button--red" href="https://yandex.ru/maps/?ll=40.913329%2C57.775838&z=18&pt=40.913329%2C57.775838,pm2rdm" target="_blank" rel="noopener">Показать на карте <span>→</span></a><button class="button button--light js-open-form" data-source="Контакты">Рассчитать макет <span>→</span></button></div></div><div class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab47e8381946230ceb86e4032dbd691ab6b6f3f8a41e63a02600ff2ceb7e8dcce&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"></script></div></div></section>
+
+<section class="final-cta"><div class="container final-cta__inner"><div><div class="micro">ПЕЧАТАЕМ ИДЕИ С 2000 ГОДА</div><h2>ЕСТЬ ИДЕЯ?<br><span>СДЕЛАЕМ.</span></h2></div><img src="assets/ui/cta-printman.png" alt="PrintMan — к новым проектам" loading="lazy"><button class="button button--red js-open-form" data-source="Финальный CTA">Оставить заявку <span>→</span></button></div></section>
+</main>
+
+<footer class="footer"><div class="container footer__inner"><div><img src="assets/brand/logo-white.png" alt="СТАНДАРТ"><small>© <span id="year"></span> СТАНДАРТ. Все права защищены.</small></div><nav><a href="#services">Услуги</a><a href="#portfolio">Портфолио</a><a href="#process">Как работаем</a><a href="#about">О нас</a><a href="#contacts">Контакты</a></nav><strong>ПЕЧАТЬ<br>ДВИЖЕТ<br>БИЗНЕС →</strong></div></footer>
+
+<div class="modal" id="contactModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal__backdrop"></div><div class="modal__card"><button class="modal__close" aria-label="Закрыть">×</button><div class="micro">СТАНДАРТ × НОВЫЙ ПРОЕКТ</div><h2 id="modalTitle">РАССЧИТАТЬ<br><span>МАКЕТ.</span></h2><p>Оставьте телефон, почту и коротко опишите задачу — мы свяжемся с вами.</p><form id="contactForm" action="send.php" method="post"><input type="hidden" name="source" id="formSource" value="Сайт"><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off"><label>Телефон*<input name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="+7 900 000 00 00"></label><label>Почта<input name="email" type="email" autocomplete="email" placeholder="mail@example.ru"></label><label>Ваш запрос*<textarea name="message" rows="5" required placeholder="Например: дизайн и печать меню, 100 экземпляров…"></textarea></label><button class="button button--red button--full" type="submit">Отправить запрос <span>→</span></button><div class="form-status" role="status"></div></form></div></div>
+<script src="app.js"></script>
+</body></html>
